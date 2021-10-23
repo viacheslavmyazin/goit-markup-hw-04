@@ -251,6 +251,7 @@ cursor: pointer;
     height: 120px;
     background: #F5F4FA;
     display: block;
+    border-radius: 4px;
 }
 
 .hero-icon-item {
@@ -418,6 +419,48 @@ color: var(--second-text-color);
     padding-bottom: 94px;
     align-items: center;
 }
+
+.customer-icon-list:not(:last-child) {
+    margin-right: 30px;
+}
+
+
+
+.customer-icon-list {
+    width: 170px;
+    height: 92px;
+    display: block;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    }
+
+    .customer-icon-list:hover, .customer-icon-list:focus {
+        border-color: #2196F3;
+    }
+
+    .customer-link:hover .customer-icon-item,
+    .customer-link:focus .customer-icon-item {
+        fill: #2196F3;
+    }
+
+    .customer-icon-item {
+        fill: #afb1b8;
+    }
+
+    .customer-list{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+.customer-icon-item {
+    width: 106px;
+    height: 60px;
+    margin: 0 auto;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 32px;
+    }
 
 .headline-customers { 
 font-weight: 700;
