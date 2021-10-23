@@ -253,6 +253,15 @@ cursor: pointer;
     display: block;
 }
 
+.hero-icon-item {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
 .hero-icon-menu {
     display: flex;
 }
