@@ -43,7 +43,6 @@ img {
 
 /* ----------------------header------------------ */
 
-
 .web {
 font-family: Raleway;
 font-weight: 700;
@@ -112,6 +111,11 @@ color: var(--headlines-text-color);
     margin-left: 50px;
 }
 
+.icon-mail {
+    margin-right: 10px;
+    fill: #757575;
+}
+
 
 .menu-link {
 font-weight: 500;
@@ -128,6 +132,7 @@ color: var(--headlines-text-color)
 
 .header-connect {
     display: flex;
+    align-items: baseline;
 }
 
 .header-tel {
@@ -142,17 +147,28 @@ color: var(--second-text-color);
     color: var(--header-color);
 }
 
+.header-tel:focus .icon-mail, .header-tel:hover .icon-mail {
+    fill: var(--header-color);
+}
+
 .header-mail {
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--second-text-color);
+display: block;
+
 }
 
 .header-mail:focus, .header-mail:hover {
     color: var(--header-color);
 }
+
+.header-mail:focus .icon-mail, .header-mail:hover .icon-mail {
+    fill: var(--header-color);
+}
+
 
 
 /* ----------------------hero----------------- */
@@ -546,7 +562,7 @@ color: var(--headlines-text-color);
 }
 
 .footer-adress {
-    padding-top: 20px;
+    margin-top: 20px;
 }
 
 .footer-list .footer-item + .footer-item {
