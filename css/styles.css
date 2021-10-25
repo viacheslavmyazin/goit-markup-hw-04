@@ -47,7 +47,7 @@ img {
 font-family: Raleway;
 font-weight: 700;
 font-size: 26px;
-line-height: 1.93;
+line-height: 1.19;
 letter-spacing: 0.03em;
 color:var(--header-color);
 }
@@ -78,7 +78,7 @@ color:var(--header-color);
 font-family: Raleway;
 font-weight: 700;
 font-size: 26px;
-line-height: 1.93;
+line-height: 1.19;
 letter-spacing: 0.03em;
 color: var(--headlines-text-color);
 }
