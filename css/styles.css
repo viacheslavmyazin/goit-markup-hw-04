@@ -373,6 +373,8 @@ color: var(--headlines-text-color);
 
 /* conteiner activity 65 */
 
+
+
 .headline-teams {
 font-weight: 700;
 font-size: 36px;
@@ -411,6 +413,10 @@ color: var(--second-text-color);
     margin-bottom: 50px;
 }
 
+.team {
+    background-color: #F5F4FA;
+    }
+
 .teams-menu {
     display: flex;
     flex-wrap: wrap;
@@ -428,6 +434,7 @@ color: var(--second-text-color);
     padding-top: 30px;
     padding-bottom: 30px;
     text-align: center;
+    background-color: #ffffff;
 }
 
 .team-pages {
@@ -491,15 +498,15 @@ fill: #afb1b8;
 
 
 
-.customer-icon-list {
-    width: 170px;
-    height: 92px;
-    display: block;
-    border: 1px solid #AFB1B8;
-    border-radius: 4px;
-    }
+    .customer-link {
+        width: 170px;
+        height: 92px;
+        display: block;
+        border: 1px solid #AFB1B8;
+        border-radius: 4px;
+        }
 
-    .customer-icon-list:hover, .customer-icon-list:focus {
+    .customer-link:hover, .customer-link:focus {
         border-color: #2196F3;
     }
 
