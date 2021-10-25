@@ -244,6 +244,7 @@ cursor: pointer;
 .about-headlines {
     margin-bottom: 10px;
     width: 270px;
+    margin-top: 30px;
 }
 
 
@@ -270,9 +271,14 @@ cursor: pointer;
     width: 270px;
     height: 120px;
     background: #F5F4FA;
-    display: block;
+    display: flex;
     border-radius: 4px;
+    justify-content: center;
+    
 }
+
+
+
 
 .hero-icon-item {
     width: 70px;
@@ -295,11 +301,7 @@ cursor: pointer;
 
 .hero-icon-list {
     flex-basis: calc(100% / 4 - 30px);
-    margin-left: 30px;
-}
-
-.test {
-    margin-top: 20px;
+    /* margin-left: 30px; */
 }
 
 
